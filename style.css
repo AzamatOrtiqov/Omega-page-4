@@ -44,6 +44,7 @@ body {
 
 .nav-list , .nav-link{
     display: flex;
+    align-items: center;
     color: #FFFFFF;
     text-decoration: none;
 }
