@@ -1,0 +1,585 @@
+* {
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+
+ul , ol {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    display: block;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.nav {
+    background-color: #5454D4;
+}
+
+.container-fluid {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.nav .container-fluid {
+    color: #FFFFFF;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list , .nav-link{
+    display: flex;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav-link p {
+    margin-right: 5px;
+    align-items: center;
+}
+
+.nav-item {
+    margin: 10px 25px;
+}
+
+.nav-item-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: -0.500211px;
+    color: #FFFFFF;
+    padding: 3px;
+    margin: 5px 10px;
+}
+
+
+.headphone {
+    background-color: #5454D4;
+}
+
+.photo-section , .content-section {
+    width: 48%;
+}
+
+.photo-section-img {
+    object-fit: contain;
+}
+
+.headphone .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.content-section-title {
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1.87579px;
+    color: #FFFFFF;
+}
+
+.content-section-info {
+    font-size: 20px;
+    line-height: 39px;
+    letter-spacing: -0.656526px;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 15px 0;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 300px;
+    padding-bottom: 20px;
+    background-color: #6565E9;
+    padding: 0 0 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+.price-link {
+    margin-left: 10px;
+    background-color: #77BF41;
+    color: white;
+    padding: 10px 12px;
+    margin-bottom: -5px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.price-info {
+    font-size: 20px;
+    letter-spacing: -0.926861px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.strong {
+    font-size: 55px;
+    line-height: 90px;
+    letter-spacing: -1.87579px;
+    color: #FFFFFF;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+}
+
+.box-link {
+    margin-left: 20px;
+    padding: 10px 25px;
+    background-color: #FEDC5A;
+    color: black;
+    text-decoration: none;
+    margin-left: 30px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.form {
+    width: 80px;
+    position: relative;
+}
+
+.input {
+    width: 100%;
+    padding:12px 25px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+} 
+
+.input:focus {
+    outline: none;
+}
+
+.button-plus {
+    width: 22px;
+    padding: 1px;
+    border: none;
+    position: absolute;
+    top: 4%;
+    right: 2%;
+}
+
+.button-plus:focus {
+    outline: none;
+}
+
+
+.plusimg,
+.minusimg {
+    object-fit: contain;
+}
+
+.button-minus {
+    width: 22px;
+    padding: 1px;
+    border: none;
+    position: absolute;
+    bottom: 3%;
+    right: 2%;
+}
+
+.minusimg {
+    padding-bottom: 3px;
+}
+
+.button-minus:focus {
+    outline: none;
+}
+
+.earphones-content,
+.earphones-photo {
+    width: 47%;
+}
+
+.earphones .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 0;
+}
+
+.earphones-title {
+   font-size: 60px;
+   line-height: 70px;
+   letter-spacing: -1.87579px;
+   color: #19191B;
+  }
+
+.earphones-info {
+    font-size: 20px;
+    line-height: 39px;
+    letter-spacing: -0.656526px;
+    color: #696871;
+    padding: 20px 0;
+  }
+
+.earphones-button {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding: 5px;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    border: 1px solid #EAE9F2;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.earphones-button:focus {
+    outline: none;
+}
+
+.earphones-button-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.656526px;
+    color: #19191B;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.earphones-button-info-text {
+    font-size: 14px;
+    letter-spacing: -0.656526px;
+    color: #696871;
+}
+
+.earphones-button-img {
+    width: 45px;
+    margin-right: 10px;
+}
+
+.need {
+    background-color: #413E65;
+}
+
+.need .container {
+    padding: 70px 0;
+}
+
+.need-title {
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: -1.87579px;
+    color: #FFFFFF;
+    margin: 50px auto 70px auto;
+    width: 40%;
+   }
+
+.need-list,
+.need-list2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.need-list1 {
+    display: flex;
+    justify-content: center;
+}
+
+.need-list1 .need-item {
+    margin-left: 25px;
+}
+
+.need-item {
+    width: 32%;
+    margin-bottom: 25px;
+}
+
+.need-button-img {
+    width: 50px;
+    margin-right: 15px;
+}
+
+.need-item-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid #EAE9F2;
+    border-radius: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px 20px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.need-item-button:focus {
+    outline: none;
+}
+
+.music .container {
+    padding: 60px 0;
+}
+
+
+.music-title , .music-info {
+    margin: 0 auto 45px auto;
+    text-align: center;
+    width: 50%;
+}
+
+.music-title {
+font-size: 60px;
+line-height: 70px;
+text-align: center;
+letter-spacing: -1.87579px;
+color: #19191B;
+}
+
+.music-info {
+    font-size: 20px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: -0.656526px;
+    color: #696871;
+
+}
+
+.music-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.music-item {
+    width: 40%;
+}
+
+.music-item1 {
+    width: 60%;
+}
+
+.headset {
+    background-color: #5454D4;
+    background-image: url("./img/headset-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right center;
+}
+
+.headset .container {
+    padding: 220px 0;
+}
+
+.headset-content {
+    width: 45%;
+}
+
+.headset-content-title {
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1.87579px;
+    color: #FFFFFF;
+}
+
+.headset-content-info {
+font-size: 20px;
+line-height: 35px;
+letter-spacing: -0.656526px;
+color: #FFFFFF;
+margin: 25px auto;
+}
+
+.headset-content-link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 60px;
+    background-color: #FEDC5A;
+    border: 1px solid #F0C931;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.user .container {
+    padding: 60px 0;
+}
+
+.user-title {
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: -1.87579px;
+    color: #19191B;
+}
+
+.user-info {
+    font-size: 21px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: -0.656526px;
+    color: #696871;
+    padding: 0 320px;
+    margin: 20px auto 40px auto;
+}
+
+.user-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.user-item {
+    width: 40%;
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid #EAE9F2;
+    border-radius: 10px;
+}
+
+.user-item-info {
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: -0.656526px;
+    color: #19191B;
+    margin-bottom: 30px;
+
+}
+
+.user-link {
+    width: 100%;
+    padding:20px 30px;
+    text-decoration: none;
+}
+
+.user-item-about {
+    display: flex;
+    align-items: center;
+}
+
+.user-item-about-photo {
+    object-fit: contain;
+    margin-right: 15px;
+}
+
+.user-item-about-info {
+    color: #19191B;
+}
+
+.rang {
+    color: #696871;
+}
+
+.box-blue {
+    margin-top: 30px;
+ display: flex;
+ justify-content: center;
+}
+
+.box-blue-item {
+    width: 20px;
+    height: 8px;
+    background-color: #EAE9F2;
+    margin:8px;
+    border-radius: 5px;
+    transition: background-color 0.3s , width 0.3s;
+}
+
+.box-blue-item:hover {
+    background-color: #5454D4;
+    width: 30px;
+}
+
+.active {
+    width: 30px;
+    height: 8px;
+    background-color: #5454D4;
+    margin: 8px;
+}
+
+.enjoy {
+    background-color: #5454D4;
+}
+
+.enjoy .container {
+    padding: 120px 0 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.enjoy-info {
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: -1.87579px;
+  color: #FFFFFF;
+  width: 50%;
+ }
+
+ .enjoy-link {
+     padding: 10px 50px;
+     background-color: #FEDC5A;
+     border: 1px solid #F0C931;
+     border-radius: 5px;
+     text-decoration: none;
+     font-size: 20px;
+     line-height: 20px;
+     text-align: center;
+     letter-spacing: -0.656526px;
+     color: rgba(0, 0, 0, 0.788926);
+     font-weight: 500;
+ }
+
+.bottom .container {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-link {
+    padding: 0 20px 0 30px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.500211px;
+    color: #19191B;
+    font-weight: 500;
+}
+
+.bottom-list {
+    display: flex;
+}
+
+.bottom-copy {
+    display: flex;
+    font-size: 16px;
+    line-height: 38px;
+    text-align: right;
+    letter-spacing: -0.500211px;
+    color: #19191B;
+    font-weight: 500;
+}
+
+.bottom-copy p {
+    margin-left: 5px;
+}
+
+
